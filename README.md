@@ -5,38 +5,42 @@
 [1.Github Account](https://github.com/)\
 [2.Heroku Account](https://dashboard.heroku.com/login)\
 [3.VS Code IDE](https://code.visualstudio.com/download)\
-[4.GIT cli](https://git-scm.com/downloads)
+[4.GIT cli](https://git-scm.com/downloads)\
 
-### Creating conda enviroment
+### Creating conda enviroment\
 
-conda create -p venv python==3.7 -y
-conda activate venv/
+conda create -p venv python==3.7 -y \
+conda activate venv/ \
 
-pip install requirements.txt
+pip install requirements.txt \
 
-To add files to Git
+To add files to Git \
 '''
 git add .
 '''
-OR
+OR \
 '''
-git add <file_name>
+git add <file_name> 
 '''
-NOte: to igoore file or folder from git we can write name of file/folder to .gitignore file
+NOte: to igoore file or folder from git we can write name of file/folder to .gitignore file \
 
-To check git status
+To check git status \
 '''
 git status
 '''
-to check all version maintained by git
+to check all version maintained by git \
 '''
 git log
 '''
-to create version/commit all change by git
+to create version/commit all change by git \
 '''
 git commit -m "message:"
 '''
-to sent version/change to git
+to sent version/change to git \
 '''
 git push origin main
+'''
+To check remote url \
+'''
+git remote -v
 '''
