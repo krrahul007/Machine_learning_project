@@ -44,3 +44,11 @@ To check remote url \
 '''
 git remote -v
 '''
+
+
+BUILD DOCKER IMAGE
+'''
+docker bulid -t <image_name>:<tagname> .
+
+note
+
