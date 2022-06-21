@@ -10,11 +10,12 @@
 ### Creating conda enviroment
 
 > conda create -p venv python==3.7 -y 
-> conda activate venv/ 
+
+> conda activate venv
 
 pip install requirements.txt 
 
-To add files to Git 
+To add files to Git git
 '''
 git add .
 '''
