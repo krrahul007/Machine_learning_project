@@ -7,14 +7,14 @@
 [3.VS Code IDE](https://code.visualstudio.com/download)\
 [4.GIT cli](https://git-scm.com/downloads)\
 
-### Creating conda enviroment\
+### Creating conda enviroment
 
-conda create -p venv python==3.7 -y \
-conda activate venv/ \
+> conda create -p venv python==3.7 -y 
+> conda activate venv/ 
 
-pip install requirements.txt \
+pip install requirements.txt 
 
-To add files to Git \
+To add files to Git 
 '''
 git add .
 '''
