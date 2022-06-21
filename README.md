@@ -16,43 +16,38 @@
 
 > conda activate venv
 
-pip install requirements.txt 
+## pip install requirements.txt 
 
-To add files to Git git
-'''
-git add .
-'''
-OR \
-'''
-git add <file_name> 
-'''
-NOte: to igoore file or folder from git we can write name of file/folder to .gitignore file \
+### To add files to Git git
 
-To check git status \
-'''
-git status
-'''
-to check all version maintained by git \
-'''
-git log
-'''
-to create version/commit all change by git \
-'''
-git commit -m "message:"
-'''
-to sent version/change to git \
-'''
-git push origin main
-'''
-To check remote url \
-'''
-git remote -v
-'''
+> git add . or git add <file_name> 
+
+> NOte: to igoore file or folder from git we can write name of file/folder to .gitignore file 
+
+> ## To check git status 
+
+> git status
+
+> ### to check all version maintained by git 
+
+> git log
+
+> ### to create version/commit all change by git 
+
+> git commit -m "message:"
+
+> ### to sent version/change to git 
+
+> git push origin main
+
+> ### To check remote url 
+
+> git remote -v
+  
+
+### BUILD DOCKER IMAGE
+
+> docker bulid -t <image_name>:<tagname> .
 
 
-BUILD DOCKER IMAGE
-'''
-docker bulid -t <image_name>:<tagname> .
-
-note
 
