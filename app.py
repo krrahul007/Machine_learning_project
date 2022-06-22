@@ -1,11 +1,9 @@
-import sys
 from flask import Flask
-from housing.logging import logger
+import sys
+from housing.logger import logging
 from housing.exception import HousingException
+app=Flask(__name__)
 
-
-
-app = Flask(__name__)
 
 @app.route("/",methods=['GET','POST'])
 def index():

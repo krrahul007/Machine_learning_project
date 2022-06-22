@@ -2,7 +2,11 @@ from setuptools import setup, find_packages
 from typing import List
 
 #Declaring function for setup functions
+PROJECT_NAME="housing-predictor"
+VERSION="0.0.3"
+AUTHOR="Rahul Kumar"
 DESCRIPTION = "This is my first ml project."
+
 REQUIREMENT_FILE_NAME = "requirements.txt"
 
 def get_requirements_list()->List[str]:
@@ -21,11 +25,11 @@ def get_requirements_list()->List[str]:
 
 
 setup(
-    name="housing-predictor",
-    version='0.0.2',
-    author='Rahul',
+    name=PROJECT_NAME,
+    version=VERSION,
+    author=AUTHOR,
     description=DESCRIPTION,
-    packages=find_packages(), #["housing"], return all folder name contain __init__.py
+    packages=find_packages(), 
     install_requires=get_requirements_list()
         
 )
