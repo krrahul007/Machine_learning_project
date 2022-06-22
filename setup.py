@@ -14,7 +14,10 @@ def get_requirements_list()->List[str]:
     
     """
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
-        return requirement_file.readlines().remove("-e .")
+        requirement_list=requirement_file.readlines()
+        print(requirement_list)
+        if "-e ." in requirement_list:
+            requirement_list.remove("-e .")
 
 
 setup(
